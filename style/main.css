@@ -1,0 +1,248 @@
+@import "font.css";
+
+:root {
+    --fMr: 'MR';
+    --fMm: 'MM';
+    --fMb: 'MB';
+    --white: #fff;
+    --black: #04000e;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #262d44;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #536294;
+}
+
+.logo__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.navbar {
+    background: #14171a;
+}
+
+/* ============================ Start MAIN ============================ */
+.blocks {
+    float: right;
+    background: #080c0f;
+    max-width: 300px;
+    width: 100%;
+    color: var(--white);
+    padding: 20px 15px;
+}
+
+.blocks-title {
+    font-size: 25px;
+    color: var(--white);
+    font-family: var(--fMb);
+    font-weight: 700;
+    display: inline-block;
+}
+
+.blocks-title::after {
+    content: '';
+    height: 3px;
+    background: linear-gradient(to right, #00ff40, #fbff00);
+    display: block;
+    margin-top: 5px;
+}
+
+.categories__title {
+    margin-bottom: 0;
+    color: var(--white);
+    display: block;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: var(--fMm);
+    font-weight: 500;
+    padding: 10px;
+    transition: 0.5s;
+    background: #363636;
+}
+
+.categories__title-margin {
+    margin-left: 5px;
+}
+
+.categories__title:hover {
+    text-decoration: none;
+    color: var(--white);
+    background: #363636;
+    padding: 10px 20px;
+}
+
+.article {
+    background: var(--black);
+    color: #fff;
+    padding: 50px 0;
+}
+
+.article__content {
+    margin-bottom: 40px;
+}
+
+.title-info {
+    font-size: 35px;
+    color: var(--white);
+    display: inline-block;
+    font-family: var(--fMb);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.title-info::after {
+    content: '';
+    height: 3px;
+    background: linear-gradient(to right, #00ff40, #fbff00);
+    display: block;
+    margin-top: 5px;
+}
+
+.content__img {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.article__info {
+    background: #080c0f;
+    padding: 20px 30px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.article__title {
+    font-family: var(--fMm);
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #ff8a00;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.article__title:hover {
+    color: #ff8a00;
+    text-decoration: none;
+}
+
+.meta-info {
+    margin-top: 10px;
+    color: grey;
+    margin-right: 20px;
+}
+
+.meta-info__margin {
+    margin-left: 5px;
+}
+
+.article__info-desc {
+    font-family: var(--fMr);
+    font-weight: 400;
+    font-size: 16px;
+    color: grey;
+    margin-top: 20px;
+}
+
+.article__pod {
+    background: #181e23;
+    padding: 10px;
+    font-family: var(--fMm);
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+.article__pod:hover {
+    background: #0051ff;
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* ============================ Finish MAIN =========================== */
+
+/* ============================ Start FOOTER ========================== */
+.footer {
+    background: #14171a;
+    padding: 100px 0 70px 0;
+    color: var(--white);
+}
+
+.footer__content-desc {
+    font-family: var(--fMm);
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--white);
+}
+
+.footer__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.footer__img-desc {
+    font-family: var(--fMr);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--white);
+    max-width: 360px;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.social__links-img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.social__links-img:hover {
+    transform: scale(1.2);
+    background: green;
+    border-radius: 50%;
+    color: green;
+    box-shadow: 0 0 10px rgba(0, 255, 76, 0.5);
+}
+
+.footer__desc {
+    max-width: 400px;
+    width: 100%;
+    font-family: var(--fMr);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.email{
+    display: block;
+    color: var(--white);
+    font-size: 30px;
+    transition: 0.5s;
+}
+.email:hover{
+    color: green;
+    text-decoration: none;
+}
+.email-desc{
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+/* ============================ Finish FOOTER ========================= */
